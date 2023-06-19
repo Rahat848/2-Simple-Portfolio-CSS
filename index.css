@@ -1,0 +1,108 @@
+/* google fonts import */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-image: url('./images/img1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+}
+.logo a span{
+    color: #ff0066;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition:all 0.5s ease;
+}
+
+.menu ul li a:hover{
+    color: rgb(204, 0, 102);
+}
+
+.login{
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.logout{
+    background: black;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding:5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
+    display: inline-block;
+    margin: 10px 15px;
+}
+.button a{
+    transition:all 0.5s ease;
+}
+
+.content{
+    margin-top: 10%;
+   max-width: 600px;
+
+}
+.content h2{
+    color: #ffffff;
+    font-size: 55px;
+}
+.content p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.hire-me{
+    margin-top: 30px;
+}
+.hire-me a button{
+    background: #ffffff;
+    color: black;
+    border: none;
+    font-size: 18px;
+    padding:5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hire-me a button:hover{
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid white;
+}
