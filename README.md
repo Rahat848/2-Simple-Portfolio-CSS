@@ -1,4 +1,4 @@
-# PortFolio-2 Using HTML And CSS
+#Simple-Portfolio-CSS
 #Live Link:
 https://simple-portfolio-2.netlify.app/
 
